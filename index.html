@@ -50,12 +50,14 @@
         padding-bottom: 30px;
 
     }
-.box img:hover{
-    opacity: 0.6;
-  
-    transition: all 0.5s ease-in-out;
 
-}
+    .box img:hover {
+        opacity: 0.6;
+
+        transition: all 0.5s ease-in-out;
+
+    }
+
     .box a {
         text-decoration: none;
         color: black;
@@ -63,7 +65,8 @@
         font-weight: bold;
 
     }
-    .box a:hover{
+
+    .box a:hover {
         color: orangered;
     }
 
@@ -78,6 +81,28 @@
         margin: auto;
         font-size: 14px;
         font-weight: bold;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .banner{
+            height: 150px;
+        }
+        .banner h1 {
+            font-size: 30px;
+            padding-top: 60px;
+        }
+
+        .box {
+            width: 45%;
+            margin: 2%;
+            gap: 20px;
+            padding-bottom: 20px;
+        }
+
+        .box a {
+            font-size: 10px;
+        }
     }
 </style>
 
